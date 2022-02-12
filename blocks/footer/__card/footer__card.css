@@ -1,0 +1,9 @@
+.footer__card {
+    padding-right: 18px;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__card {
+      padding-bottom: 32px;  
+    }
+  }

@@ -1,0 +1,29 @@
+.pfoto-grid {
+    max-width: 1184px;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    grid-template-rows: repeat(3, minmax(213px, 1fr));
+    margin: auto;
+    padding: 92px 48px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .pfoto-grid {
+    gap: 14px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .pfoto-grid {
+    gap: 16px;
+    padding: 88px 24px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .pfoto-grid {
+    gap: 12px;
+    padding: 64px 16px;
+    }
+  }

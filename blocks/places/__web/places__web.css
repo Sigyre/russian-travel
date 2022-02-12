@@ -1,0 +1,15 @@
+.places__web {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 464px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  @media screen and (max-width: 320px) {
+    .places__web {
+      padding: 0 16px;
+    }
+  }
